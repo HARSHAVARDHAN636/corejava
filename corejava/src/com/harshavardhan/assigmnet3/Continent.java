@@ -16,7 +16,7 @@ public class Continent {
 		this.nofcountry = nofcountry;
 	}
 
-	}
+	
 	public String getContinentName() {
 		return continentName;
 	}
@@ -40,4 +40,5 @@ public class Continent {
 	public String toString() {
 		return "Continent [continentName=" + continentName + ", size=" + size + ", nofcountry=" + nofcountry + "]";
 	}
+}
 
